@@ -28,6 +28,8 @@ resultado = buscar_evangelho()
 with open('Evangelho_do_dia.txt', "w", encoding="utf-8") as f:
     f.write("Evangelho do Dia\n\n")
     f.write(' '.join(resultado))
+    f.write("\n")
+    f.write("Palavra da Salvação\n\n")
 
 print("Finalizado, arquivo Evangelho_do_dia.txt foi gerado")
 
